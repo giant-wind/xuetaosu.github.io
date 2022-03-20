@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>CSCI 571 HW2 Xuetao Sun 1575000521</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1894.6">
+  <style type="text/css">
+    body {
+      font: Montserrat;
+      width: 1664px;
+      text-align: center;
+    }
+    .form_label {
+      text-align: right;
+      font-weight: bold;
+      position: absolute;
+    }
+    .form_input {
+      position: absolute;
+      left: 770px;
+    }
+    .form_submit {
+      border-radius: 0;
+      background-color: #0033cc;
+      color: white;
+      border-width: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: #cc0000;">
+    Blood Pressure Predictor
+  </h1>
+  <h2 style="color: #ff5050;">
+    Fill out the form to get your Blood Pressure Predictor
+  </h2>
+  <form>
+    <label class="form_label" style="left: 725px">Age<span style="color: red"> * </span></label>
+    <input class="form_input" type="number" name="age" placeholder="Enter age in years" min="1"><br><br>
+    <label class="form_label" style="left: 703px">Weight<span style="color: red"> * </span></label>
+    <input class="form_input" type="number" name="weight" placeholder="Enter weight in kg" min="1"><br><br>
+    <input class="form_submit" type="submit" name="Calculate" value="Calculate">
+  </form>
+  <p>{{prediction}}</p>
+</body>
+</html>
